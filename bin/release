@@ -3,5 +3,5 @@
 cat << EOF
 ---
 default_process_types:
-  web: sleep infinity
+  web: sudo /usr/sbin/cron -f
 EOF
